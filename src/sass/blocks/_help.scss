@@ -44,6 +44,7 @@
 }
 
 .faq1 .item1 .ask1{
+	position: relative;
 	font-size: 30px;
 	margin-bottom: 0px;
 	margin-left: 62px;
@@ -55,7 +56,19 @@
 	display: flex;
 	align-items: center;
 	letter-spacing: 0.03em;
+	&:before {  
+		content: "";
+		top: 3px;
+		left: -38px;
+		color: transparent;
+		background: url("../../icons/acordeon_up.svg") no-repeat 50% 50% / 1em 1em;
+		width: 1em;
+		height: 1em;  
+		
+		position: absolute;
+		transition: transform .5s;
 	}
+}
 
 .faq1 .item1 .answer1{
 
