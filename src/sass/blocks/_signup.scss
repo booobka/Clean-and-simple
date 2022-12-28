@@ -1,0 +1,68 @@
+.signup {
+padding: 118px 0;
+
+&__container {
+    
+}
+&__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 887px;
+    
+    margin: 0 auto;
+}
+&__wrapper {
+    display: flex;
+}
+&__wrapper_left {
+    flex-direction: column;
+}
+&__title {
+    color: $title-color;
+    font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+margin-bottom: 18px;
+}
+&__descr {
+    max-width: 330px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    letter-spacing: 0.03em;
+
+color: #8D96BD;
+}
+&__wrapper_right {
+}
+&__input-email {
+    width: 279px;
+    height: 59px;
+    border-radius: 5px;
+    border-style: none;
+    padding: 21px 21px 21px 23px;
+    color: #7A85AD;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    background: #EFEFF7;
+
+
+}
+&__btn {
+    width: 184px;
+    height: 59px;
+    background: #4D6CE1;
+    box-shadow: 0px 5px 15px rgba(116, 104, 255, 0.2);
+    border-radius: 5px;
+    margin-left: 14px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+
+}
+}

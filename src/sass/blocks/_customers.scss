@@ -1,0 +1,27 @@
+.customers {
+
+    &__container{
+        max-width: 888px;
+
+    }
+
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 145px;
+
+    }
+&__link {   
+    
+    :hover {
+        path {
+            transition:all .4s;
+            fill:#6188FF;
+        }
+    }
+}
+}

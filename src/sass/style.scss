@@ -1,0 +1,99 @@
+@import 'base/slick';
+@import 'libs/bootstrap-reboot.min';
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+@import 'base/mixins';
+* {
+    
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+            &:focus {
+            outline: none;
+          }
+          
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+ul {
+    margin: 0;
+    list-style-type: none;
+}
+
+p {
+    margin: 0;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 29px;
+    color: #8D96BD;
+}
+
+h2 {
+    color: $title-color;
+    font-size: 36px;
+    line-height: 45px;
+    font-weight: 500;
+    
+}
+
+h3 {
+    color: $title-color;
+    font-size: 10px;
+    line-height: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+h4 {
+    color: $title-color;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+   
+}
+
+h5 {
+    color: $title-color;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+}
+h6 {
+    color: $title-color;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+}
+
+
+button {
+    border-style:none;
+    &:focus {
+        outline: none;
+    }
+}
+
+@import 'blocks/header';
+@import 'blocks/clouds';
+@import 'blocks/customers';
+@import 'blocks/animated';
+@import 'blocks/plan';
+@import 'blocks/about';
+@import 'blocks/statistic';
+@import 'blocks/start';
+@import 'blocks/quotes';
+@import 'blocks/help';
+@import 'blocks/getstarted';
+@import 'blocks/signup';
+@import 'blocks/footer';
+
+
+
+
+@import 'base/media';
+

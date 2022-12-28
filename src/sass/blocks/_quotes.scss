@@ -1,0 +1,142 @@
+.quotes {
+    padding: 100px 0;
+    background: linear-gradient(180deg, #EAF0FF 0%, #F6F9FF 100%);
+    
+    
+    overflow: hidden;
+
+
+    &__container {
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+    &__box-all {
+        margin-left: 276px;
+        display: flex;
+
+    }
+
+    &__box_left {
+        width: 333px;
+        height: 187px;
+        margin-right: 132px;
+        flex: 0 0 auto;
+
+    }
+
+        &__subtitle {
+            margin: 49px 0 31px;
+            letter-spacing: 0.1em;
+
+        }
+
+        &__title {
+            margin-bottom: 14px;
+            font-weight: 500;
+        }
+
+        &__descr {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 23px;
+            letter-spacing: 0.03em;
+
+        }
+
+    &__box_slider {
+        margin-top: 12px;
+        width: 975px;
+        height: 279px;
+        // overflow: hidden;
+
+    }
+
+    &__slider-wrapper-lvl-1 {
+        
+        
+        
+        
+    }
+
+    &__slider-wrapper-lvl-2 {
+        
+        
+        
+        
+        
+        
+
+    }
+
+    &__slider-box {
+        position: relative;
+        width: 423px;
+        height: 175px;
+        background: #ffffff;
+        padding: 41px 69px;
+        margin-bottom: 40px;
+
+    }
+
+    &__slider-descr {
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+    }
+
+    &__slider-img {
+        position: absolute;
+        bottom: -31px;
+        left:50%;
+        transform: translateX(-50%);
+
+    }
+
+    .slick-dots {
+        position: absolute;
+        bottom: 11px;
+        left: 121px;
+        margin-top: 31px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+
+    }
+    .slick-dots button {
+        font-size: 0;
+        width: 8px;
+        height: 8px;
+        border-radius: 100%;
+        border-style: none;
+        background: #D1D6E3;
+    }
+
+    .slick-dots li {
+        list-style-type: none;
+        margin: 6px;
+    }
+    .slick-dots .slick-active button {
+        background: #5283FF;
+
+    }
+
+
+        
+        .slick-slide {
+            
+            transition: all 1.5s;
+            opacity: .45;
+        }
+        .slick-current {
+            
+            transition: all 1s;
+            opacity: 1;
+
+        } 
+    
+}

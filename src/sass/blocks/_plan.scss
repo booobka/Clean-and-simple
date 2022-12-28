@@ -1,0 +1,106 @@
+.plan {
+    display: flex;
+    position: relative;
+    padding: 208px 0 216px 0;
+    background: #F5F8FF;
+    overflow: hidden;
+
+    &__container {
+        min-width: 1440px;
+        position: relative;
+        display: flex;
+        flex: 0 0 auto;
+
+    }
+    
+
+    &__wrapper {
+        width: 413px;
+        margin-left: 271px;
+        margin-right: 0;
+    }
+
+    &__app {
+        margin-bottom: 27px;
+    }
+
+    &__title {
+        margin-bottom: 27px;
+    }
+
+    &__descr {
+        margin-bottom: 47px;
+    }
+
+    &__buttons {
+        display: flex;
+    }
+
+    &__btn {
+        
+        width: 130px;
+        height: 43px;
+        border-style: none;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 16px;
+        color: #FFFFFF;
+        background: #4C85FF;
+        box-shadow: 0px 5px 15px rgba(188, 199, 255, 0.75);
+        &:focus {
+            outline: none;
+        }
+        &_white {
+            font-weight: 500;
+            color: #ADB4D2;
+            background: #F5F8FF;
+            box-shadow: none;
+            // border-style:dashed;
+            border-color: #adb4d25b;
+        //    border-style:dashed;
+        border-style:solid;
+        border-radius:0 3px 3px 0;
+
+
+        }
+    }
+
+    &__box2 {
+        position: relative;
+        background-color: rgba(0, 255, 255, 0);
+        width: 653px;
+        height: 463px;
+        
+    }
+
+    &__img {
+        position: absolute;
+        
+        &_phone {
+            left: 16px;
+            top: 43px;
+            width: 185px;
+            height: 293px;
+            z-index:3;
+        }
+
+        &_laptop {
+            width: 854px;
+            height: 619px;
+            left: -98px;
+            top: -58px;
+            z-index:1;
+
+            
+        }
+
+        &_phablet {
+            width: 350px;
+            height: 487px;
+            top: 20px;
+            left: 372px;
+
+            z-index:2;
+        }
+    }
+}

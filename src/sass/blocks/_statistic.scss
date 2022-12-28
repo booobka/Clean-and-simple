@@ -1,0 +1,67 @@
+.statistic {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+
+
+
+    &__wrapper {
+        padding: 147px 0 66px 0;
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+
+        &_left {
+            padding-right: 90px;
+            align-items: end;
+            background: linear-gradient(229.32deg, #6888FF 12.77%, #5E80FF 73.11%);
+            
+        }
+
+        &_right {
+            padding-left: 90px;
+            background: linear-gradient(101.48deg, #E9EFFF 41.56%, #E0E9FF 81.53%);
+
+        }
+    }
+
+    &__img {
+        width: 66px;
+        position: absolute;
+        top: 66px;
+
+        &_right{
+            width: 62px;
+            top: 70px;
+
+        }
+
+    }
+
+    &__precent {
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 83px;
+        color: #FFFFFF;
+        &_right {
+            color: #5E80FF;
+        }
+    }
+
+    &__desr {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 23px;
+        color: #FFFFFF;
+        text-align: right;
+        &_right {
+            color: #5E80FF;
+            text-align: left;
+        }
+
+    }
+
+
+}

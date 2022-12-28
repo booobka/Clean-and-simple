@@ -1,0 +1,135 @@
+.about {
+    padding: 173px 0 171px 0;
+
+    &__subtitle {
+        text-align: center;
+        margin-bottom: 20px;
+
+    }
+
+    &__title {
+        text-align: center;
+        margin-bottom: 92px;
+
+    }
+
+    &__wrapper {
+        margin: 0 auto 92px auto;
+        display: flex;
+        justify-content: space-between;
+        max-width: 761px;
+
+    }
+
+    &__block {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 140px;
+
+    }
+
+    &__dot {
+        position: relative;
+        width: 69px;
+        height: 69px;
+        background: #F1F5FF;
+        border-radius: 100%;
+        margin-bottom: 33px;
+
+
+    }
+
+    &__img {
+        position: relative;
+        display: block;
+        margin: 0 auto;
+        top: 50%;
+        transform: translateY(-50%);
+
+    }
+
+
+    &__name {
+        font-family: 'Open Sans';
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 25px;
+        color: #4074F8;
+        text-align: center;
+        margin-bottom: 25px;
+
+    }
+
+    &__descr {
+        font-family: 'Open Sans';
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 19px;
+        text-align: center;
+        color: #ADB3CB;
+
+    }
+
+    &__wrapper-btn {
+        margin: 0 auto;
+        
+        max-width: 337px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        span {
+            display: block;
+            width: 15px;
+            height: 0px;
+            border: 1px solid #DAE4FE;
+        }
+    }
+
+    &__btn {
+        width: 113px;
+        height: 43px;
+        background: #FFD7D7;
+        color: #D43F3F;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 16px;
+        border-style:none;
+
+
+        &_blue {
+        background: #D2E1FF;
+        color: #3A79FF;
+
+        }
+    }
+
+    &__or {
+        display: block;
+        position: relative;
+        font-family: 'Open Sans';
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 19px;
+        color: #ADB3CB;
+        &::before {
+            content: '';
+            width: 15px;
+            height: 1px;
+            position: absolute;
+            background: #DAE4FE;
+            left: 31px;
+            top: 9px;
+        }
+        &::after {
+            content: '';
+            width: 15px;
+            height: 1px;
+            position: absolute;
+            background: #DAE4FE;
+            right: 31px;
+            top: 9px;
+        }
+    }
+}
