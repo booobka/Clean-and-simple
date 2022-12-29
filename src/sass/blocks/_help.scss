@@ -64,11 +64,14 @@
 		background: url("../../icons/acordeon_up.svg") no-repeat 50% 50% / 1em 1em;
 		width: 1em;
 		height: 1em;  
-		
 		position: absolute;
 		transition: transform .5s;
 	}
+	&__active::before {
+		transform: rotate(180deg);
+	}
 }
+
 
 .faq1 .item1 .answer1{
 
