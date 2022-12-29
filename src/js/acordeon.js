@@ -1,18 +1,24 @@
 window.addEventListener('load', function(){
 
 	let faq = document.querySelector('.faq1');
+	let answers = this.document.querySelectorAll('.answer1');
 
 	faq.addEventListener('click', function(e){
 		if(e.target.classList.contains('ask1')){
-			toogleItem(e.target);
-		}
-        toogleItem
-	});
+			answers.forEach(function(answer) {
+				if(answer.classList.contains('open') && answer.previousSibling != e.target) {
+					answer.previousSibling.classList.toggle('ask1__active');
+					toogleItem(answer);
 
+				}
+			});
+			toogleItem(e.target);
+			e.target.classList.toggle('ask1__active');
+		}
+	});
 
 	function toogleItem(ask1){
 		let answer = ask1.parentNode.querySelector('.answer1');
-
 		toogleItemAnim(
 			answer, 
 			550,
@@ -25,7 +31,7 @@ window.addEventListener('load', function(){
 				{ opacity: 0, height: 0 }
 			]
 		);
-
+		return true;
 	
 	}
 });
