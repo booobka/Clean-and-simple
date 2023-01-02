@@ -78,11 +78,8 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-
-
 	overflow: hidden;
 	padding: 0 15px;
-	display: none;
 	flex: 0 0 auto;
 }
 .open {
@@ -132,4 +129,21 @@ line-height: 16px;
 	height: 1px;
 	
 	background: #D8E3FE;
+}
+
+.acordeon {
+	&__item {
+		opacity: 0.5;
+		transition: all 0.5s;
+	}
+	&__item_active {
+		opacity: 1;
+	}
+	&__item_active::before {
+		transform: rotate(180deg);
+	}
+	&__answer {
+		transition: all 0.5s;
+		height: 0px;
+	}
 }
