@@ -132,4 +132,54 @@
             top: 9px;
         }
     }
+
+    &__wrapper-cloud {
+        position: absolute;
+        top: 0;
+        
+        max-width: 1201px;
+        max-height: 573px;
+        background-color: #D43F3F;
+
+    }
+
+    &__cloud {
+        position: absolute;
+        border-radius: 50% 50% 0 0 / 100% 100% 0 0; 
+        background: #124dd8;
+        box-shadow: 0px 5px 45px rgba(151, 175, 227, 0.1);
+        &_1 {
+            top:0;
+            left: 0;
+            width: 46px;
+            height: 23px;
+        }
+        &_2 {
+            
+        }
+        &_3 {
+
+        }
+        &_4 {
+            
+        }
+        &_5 {
+            
+        }
+        &_6 {
+
+        }
+        &_7 {
+            
+        }
+        &_8 {
+
+        }
+        &_9 {
+            
+        }
+        &_10 {
+            
+        }
+    }
 }
