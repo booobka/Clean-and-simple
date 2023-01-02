@@ -1,10 +1,20 @@
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 .clouds {
-    background: linear-gradient(180deg, #F4F7FF 0%, #F1F5FF 100%);
-    padding-top: 92px;
-    height: 570px;
-    position: relative;
-    z-index: 1;
-    width: 100%;
+
+
+    &__wrapper {
+        background: linear-gradient(180deg, #F4F7FF 0%, #F1F5FF 100%);
+        padding-top: 92px;
+        height: 570px;
+        position: relative;
+        z-index: 1;
+        width: 100%;
+
+    }
 
     &__subtitle {
         color: $title-color;
