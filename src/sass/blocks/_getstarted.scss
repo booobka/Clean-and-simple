@@ -1,8 +1,10 @@
 .getstarted {
+
+
+&__wrapper {
     padding: 91px 0;
     background: linear-gradient(229.32deg, #6888FF 12.77%, #5E80FF 73.11%);
-
-&__container {
+    
 }
 
 
@@ -33,7 +35,7 @@
     color: #FFFFFF;
 }
 
-&__wrapper {
+&__box {
     margin-top: 28px;
 
    text-align: center;

@@ -1,20 +1,22 @@
 .plan {
-    display: flex;
-    position: relative;
-    padding: 208px 0 216px 0;
-    background: #F5F8FF;
-    overflow: hidden;
+
 
     &__container {
-        min-width: 1440px;
-        position: relative;
+        // min-width: 1440px;
+        // position: relative;
+        // display: flex;
+        // flex: 0 0 auto;
+    }
+    &__wrapper {
         display: flex;
-        flex: 0 0 auto;
-
+        position: relative;
+        padding: 208px 0 216px 0;
+        background: #F5F8FF;
+        overflow: hidden;
     }
     
 
-    &__wrapper {
+    &__box_left {
         width: 413px;
         margin-left: 271px;
         margin-right: 0;
@@ -65,7 +67,7 @@
         }
     }
 
-    &__box2 {
+    &__box_right {
         position: relative;
         background-color: rgba(0, 255, 255, 0);
         width: 653px;

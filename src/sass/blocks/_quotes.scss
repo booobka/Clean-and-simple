@@ -1,16 +1,22 @@
 .quotes {
-    padding: 100px 0;
-    background: linear-gradient(180deg, #EAF0FF 0%, #F6F9FF 100%);
-    
-    
-    overflow: hidden;
 
+    &__wrapper {
+        padding: 100px 0;
+        background: linear-gradient(180deg, #EAF0FF 0%, #F6F9FF 100%);
+    
+        overflow: hidden;
+    
 
+    }
     &__container {
         max-width: 1440px;
         margin: 0 auto;
     }
     &__box-all {
+
+
+
+        
         margin-left: 276px;
         display: flex;
 

@@ -1,8 +1,13 @@
 .start {
-    padding-top: 103px;
-    padding-bottom: 213px;;
-    width: 100%;
-    background: #F5F8FF;
+
+    &__wrapper {
+        padding-top: 103px;
+        padding-bottom: 213px;;
+        width: 100%;
+        background: #F5F8FF;
+    
+
+    }
 
     &__subtitle {
         margin-bottom: 20px;
